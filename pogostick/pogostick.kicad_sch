@@ -367,600 +367,370 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 109.22 135.89)
+		(at 123.19 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "026d6845-fd84-41fb-91bd-12d7d598ae8a")
 	)
 	(junction
-		(at 109.22 123.19)
+		(at 123.19 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "032a8937-01a8-49a8-8a9a-03d435a10e3a")
 	)
 	(junction
-		(at 109.22 97.79)
+		(at 123.19 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0827b5bc-0d6e-44c3-b00b-4a7d66660cbf")
 	)
 	(junction
-		(at 185.42 148.59)
+		(at 199.39 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12be9d96-4700-4d6c-97d1-8ab05ffcd82e")
 	)
 	(junction
-		(at 210.82 85.09)
+		(at 224.79 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13506196-0f95-430d-934a-266f717ba50a")
 	)
 	(junction
-		(at 96.52 148.59)
+		(at 110.49 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "137b2cf0-894d-4ccf-b9ee-31a471925295")
 	)
 	(junction
-		(at 109.22 148.59)
+		(at 123.19 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13cba90c-bb72-4996-9b60-43aa4ae38e79")
 	)
 	(junction
-		(at 121.92 110.49)
+		(at 135.89 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13df33f1-1c5e-4391-a8c0-8a542bfd80e0")
 	)
 	(junction
-		(at 172.72 123.19)
+		(at 186.69 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15e9ad07-9122-4197-a623-c834829a584c")
 	)
 	(junction
-		(at 121.92 97.79)
+		(at 135.89 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17ae1a75-40d9-435f-8afe-1965b66db520")
 	)
 	(junction
-		(at 172.72 135.89)
+		(at 186.69 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18e9c7fd-f357-4817-b019-c0743055fe5c")
 	)
 	(junction
-		(at 121.92 85.09)
+		(at 135.89 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cb028bb-9fe5-4571-9ea7-a4279cf71fa7")
 	)
 	(junction
-		(at 185.42 135.89)
+		(at 199.39 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "229779b6-65d5-435c-9b08-3a881db4ee6c")
 	)
 	(junction
-		(at 185.42 123.19)
+		(at 199.39 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2afc5b79-fe62-451f-aa11-8b1c8d254351")
 	)
 	(junction
-		(at 109.22 85.09)
+		(at 123.19 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "316d5989-6ff9-4fd6-a5cf-713290623bb0")
 	)
 	(junction
-		(at 210.82 110.49)
+		(at 224.79 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "335cdc03-1e68-4aea-b4fe-94d424b9b02f")
 	)
 	(junction
-		(at 160.02 85.09)
+		(at 173.99 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d21a7d5-9a14-4917-b8bd-5df7ab31e4b8")
 	)
 	(junction
-		(at 134.62 148.59)
+		(at 148.59 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "445153fa-4553-4e5f-94f9-1fff8735e0c0")
 	)
 	(junction
-		(at 198.12 148.59)
+		(at 212.09 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4680d9c0-b69f-4fcd-a571-eaf98f739b96")
 	)
 	(junction
-		(at 134.62 85.09)
+		(at 148.59 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cb23de2-ac87-4128-853a-f426c50f1031")
 	)
 	(junction
-		(at 96.52 135.89)
+		(at 110.49 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cdaaf77-d526-45b7-80d9-669b7817b6a0")
 	)
 	(junction
-		(at 134.62 110.49)
+		(at 148.59 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5741cdcd-99fe-4ef3-a7eb-431033846a5e")
 	)
 	(junction
-		(at 160.02 148.59)
+		(at 173.99 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a60a02f-9003-41eb-859b-c21d986fe9ce")
 	)
 	(junction
-		(at 147.32 97.79)
+		(at 161.29 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65729d71-cc3a-4b73-a085-982ba42e61e0")
 	)
 	(junction
-		(at 198.12 110.49)
+		(at 212.09 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6730a56e-6292-496b-8de7-541a6744a7e8")
 	)
 	(junction
-		(at 147.32 148.59)
+		(at 161.29 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "695291f4-81ad-4ddf-a9ed-c797fab156ad")
 	)
 	(junction
-		(at 160.02 123.19)
+		(at 173.99 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ad407bf-67f3-4ef0-903c-e1f6679999bd")
 	)
 	(junction
-		(at 147.32 135.89)
+		(at 161.29 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b440c85-5207-4438-b4d9-422b1957c7de")
 	)
 	(junction
-		(at 172.72 85.09)
+		(at 186.69 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c380c15-025e-4ebb-8803-ce4aeed6977a")
 	)
 	(junction
-		(at 210.82 148.59)
+		(at 224.79 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f3668c1-d18e-4566-b5f3-9e6f0cefe7f7")
 	)
 	(junction
-		(at 198.12 123.19)
+		(at 212.09 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74e4a6c3-57c1-4cb4-95ad-aad81898f723")
 	)
 	(junction
-		(at 121.92 148.59)
+		(at 135.89 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "774a07cb-268b-4fb1-b322-b13ade5fdbf5")
 	)
 	(junction
-		(at 147.32 123.19)
+		(at 161.29 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ae3096e-267a-4332-8ac7-4e228167e532")
 	)
 	(junction
-		(at 96.52 85.09)
+		(at 110.49 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d9f55f0-e2c1-45a9-a074-aa49c729635e")
 	)
 	(junction
-		(at 96.52 123.19)
+		(at 110.49 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ef1ed26-3c05-42a4-b4a1-6ab85ddd2c1b")
 	)
 	(junction
-		(at 109.22 110.49)
+		(at 123.19 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b5e553-43e8-49d0-b1f6-7ce6809f36b1")
 	)
 	(junction
-		(at 198.12 97.79)
+		(at 212.09 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a474145-3843-4edb-aab1-308187d39e32")
 	)
 	(junction
-		(at 210.82 135.89)
+		(at 224.79 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8eadf066-2714-4fa6-ac91-d2b8bfac474c")
 	)
 	(junction
-		(at 134.62 97.79)
+		(at 148.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9173ceb2-b987-49ef-8b84-0a5d97ad9e10")
 	)
 	(junction
-		(at 134.62 135.89)
+		(at 148.59 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a6ff25-ea8e-4b10-91a5-4fb1a5c68d69")
 	)
 	(junction
-		(at 172.72 97.79)
+		(at 186.69 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1762d48-fab0-4ae1-a396-3469a1ec07f3")
 	)
 	(junction
-		(at 185.42 97.79)
+		(at 199.39 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa6e1afa-56a8-492d-ba0b-be4fd8dffabb")
 	)
 	(junction
-		(at 160.02 110.49)
+		(at 173.99 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2300e13-e410-40d6-8445-f28f129e4ac9")
 	)
 	(junction
-		(at 160.02 135.89)
+		(at 173.99 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3af69f3-3bd8-4843-99a4-af04df89c7ea")
 	)
 	(junction
-		(at 147.32 85.09)
+		(at 161.29 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3ef0682-48ac-4096-b020-257df5b79bd9")
 	)
 	(junction
-		(at 185.42 110.49)
+		(at 199.39 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c86e3a-7142-496c-ac8e-88a33fb2f9f5")
 	)
 	(junction
-		(at 121.92 123.19)
+		(at 135.89 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdee3cef-85f3-4b04-a54e-e269005eb4c8")
 	)
 	(junction
-		(at 96.52 97.79)
+		(at 110.49 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3a11be-9a26-415a-8551-1054ee19eca1")
 	)
 	(junction
-		(at 147.32 110.49)
+		(at 161.29 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c059e04e-6acb-4fb9-9b9f-2df3a4364762")
 	)
 	(junction
-		(at 210.82 123.19)
+		(at 224.79 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c786815c-5354-4cee-94b4-fcc3b0fe1080")
 	)
 	(junction
-		(at 210.82 97.79)
+		(at 224.79 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca9155c0-2e09-467b-bdd0-13ad33a2e1c0")
 	)
 	(junction
-		(at 198.12 135.89)
+		(at 212.09 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6f126f2-9f9d-4352-b5ad-3aec9da17079")
 	)
 	(junction
-		(at 134.62 123.19)
+		(at 148.59 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda3aedb-4e17-471d-95da-6b5611b3197a")
 	)
 	(junction
-		(at 185.42 85.09)
+		(at 199.39 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df054f9e-e3f0-4890-8398-cd765283e972")
 	)
 	(junction
-		(at 198.12 85.09)
+		(at 212.09 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e68cc2-f9d5-4bba-a600-003959bba1be")
 	)
 	(junction
-		(at 160.02 97.79)
+		(at 173.99 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e48c3be2-2ae3-4450-b54a-e0bdd4bed56f")
 	)
 	(junction
-		(at 172.72 110.49)
+		(at 186.69 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc6c177-76df-454f-96d5-add981fc5143")
 	)
 	(junction
-		(at 121.92 135.89)
+		(at 135.89 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6f24b98-645b-44cf-b58b-a6a7a17e7d7e")
 	)
 	(junction
-		(at 172.72 148.59)
+		(at 186.69 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fabbf85e-3376-4293-bccc-7f0b10ac6180")
 	)
 	(junction
-		(at 96.52 110.49)
+		(at 110.49 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9101b4-9c41-41a9-af92-3f167c904195")
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 160.02 123.19)
+			(xy 161.29 73.66) (xy 173.99 73.66)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 123.19) (xy 172.72 123.19)
+			(xy 173.99 73.66) (xy 186.69 73.66)
 		)
 		(stroke
 			(width 0)
@@ -980,7 +750,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 210.82 85.09)
+			(xy 212.09 35.56) (xy 224.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +760,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 148.59) (xy 210.82 148.59)
+			(xy 243.84 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +770,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 110.49) (xy 147.32 110.49)
+			(xy 148.59 60.96) (xy 161.29 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1010,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 148.59) (xy 134.62 148.59)
+			(xy 135.89 99.06) (xy 148.59 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1020,7 +790,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 85.09) (xy 229.87 97.79)
+			(xy 243.84 35.56) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1030,7 +800,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 110.49) (xy 134.62 110.49)
+			(xy 135.89 60.96) (xy 148.59 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1040,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 110.49) (xy 229.87 110.49)
+			(xy 224.79 60.96) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1050,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 97.79) (xy 172.72 97.79)
+			(xy 173.99 48.26) (xy 186.69 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1060,7 +830,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 109.22 110.49)
+			(xy 110.49 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1070,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 148.59) (xy 160.02 148.59)
+			(xy 161.29 99.06) (xy 173.99 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 135.89) (xy 121.92 135.89)
+			(xy 123.19 86.36) (xy 135.89 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1090,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 135.89) (xy 77.47 123.19)
+			(xy 91.44 86.36) (xy 91.44 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1100,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 147.32 85.09)
+			(xy 148.59 35.56) (xy 161.29 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1110,7 +880,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 135.89) (xy 134.62 135.89)
+			(xy 135.89 86.36) (xy 148.59 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 135.89) (xy 185.42 135.89)
+			(xy 186.69 86.36) (xy 199.39 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1130,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 121.92 110.49)
+			(xy 123.19 60.96) (xy 135.89 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +910,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 110.49) (xy 229.87 123.19)
+			(xy 243.84 60.96) (xy 243.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1150,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 77.47 135.89)
+			(xy 110.49 86.36) (xy 91.44 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 135.89) (xy 210.82 135.89)
+			(xy 212.09 86.36) (xy 224.79 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 135.89) (xy 229.87 135.89)
+			(xy 224.79 86.36) (xy 243.84 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 123.19) (xy 185.42 123.19)
+			(xy 186.69 73.66) (xy 199.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1190,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 110.49) (xy 185.42 110.49)
+			(xy 186.69 60.96) (xy 199.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 85.09) (xy 185.42 85.09)
+			(xy 186.69 35.56) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 110.49) (xy 77.47 97.79)
+			(xy 91.44 60.96) (xy 91.44 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1220,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 123.19) (xy 134.62 123.19)
+			(xy 135.89 73.66) (xy 148.59 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 85.09) (xy 198.12 85.09)
+			(xy 199.39 35.56) (xy 212.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 85.09) (xy 134.62 85.09)
+			(xy 135.89 35.56) (xy 148.59 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 135.89) (xy 147.32 135.89)
+			(xy 148.59 86.36) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 148.59) (xy 147.32 148.59)
+			(xy 148.59 99.06) (xy 161.29 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 148.59) (xy 109.22 148.59)
+			(xy 110.49 99.06) (xy 123.19 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 160.02 110.49)
+			(xy 161.29 60.96) (xy 173.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 110.49) (xy 210.82 110.49)
+			(xy 212.09 60.96) (xy 224.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1300,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 134.62 97.79)
+			(xy 135.89 48.26) (xy 148.59 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 123.19) (xy 210.82 123.19)
+			(xy 243.84 73.66) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1090,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 97.79) (xy 185.42 97.79)
+			(xy 186.69 48.26) (xy 199.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 85.09) (xy 229.87 85.09)
+			(xy 224.79 35.56) (xy 243.84 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 96.52 123.19)
+			(xy 91.44 73.66) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 121.92 123.19)
+			(xy 123.19 73.66) (xy 135.89 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1360,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 97.79) (xy 96.52 97.79)
+			(xy 91.44 48.26) (xy 110.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 97.79) (xy 160.02 97.79)
+			(xy 161.29 48.26) (xy 173.99 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1150,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 148.59) (xy 121.92 148.59)
+			(xy 123.19 99.06) (xy 135.89 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1390,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 77.47 110.49)
+			(xy 110.49 60.96) (xy 91.44 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 148.59) (xy 210.82 148.59)
+			(xy 212.09 99.06) (xy 224.79 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 135.89) (xy 172.72 135.89)
+			(xy 173.99 86.36) (xy 186.69 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1190,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 97.79) (xy 121.92 97.79)
+			(xy 123.19 48.26) (xy 135.89 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 85.09) (xy 172.72 85.09)
+			(xy 173.99 35.56) (xy 186.69 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 135.89) (xy 109.22 135.89)
+			(xy 110.49 86.36) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1450,7 +1220,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 123.19) (xy 198.12 123.19)
+			(xy 199.39 73.66) (xy 212.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 110.49) (xy 198.12 110.49)
+			(xy 199.39 60.96) (xy 212.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 85.09) (xy 109.22 85.09)
+			(xy 110.49 35.56) (xy 123.19 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 148.59) (xy 185.42 148.59)
+			(xy 186.69 99.06) (xy 199.39 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1490,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 148.59) (xy 172.72 148.59)
+			(xy 173.99 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1500,7 +1270,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 85.09) (xy 96.52 85.09)
+			(xy 72.39 35.56) (xy 110.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 85.09) (xy 160.02 85.09)
+			(xy 161.29 35.56) (xy 173.99 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1290,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 123.19) (xy 109.22 123.19)
+			(xy 110.49 73.66) (xy 123.19 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1530,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 135.89) (xy 160.02 135.89)
+			(xy 161.29 86.36) (xy 173.99 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 148.59) (xy 198.12 148.59)
+			(xy 199.39 99.06) (xy 212.09 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1320,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 97.79) (xy 210.82 97.79)
+			(xy 212.09 48.26) (xy 224.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 110.49) (xy 172.72 110.49)
+			(xy 173.99 60.96) (xy 186.69 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 97.79) (xy 198.12 97.79)
+			(xy 199.39 48.26) (xy 212.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 210.82 97.79)
+			(xy 243.84 48.26) (xy 224.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1360,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 210.82 123.19)
+			(xy 212.09 73.66) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 148.59) (xy 96.52 148.59)
+			(xy 72.39 99.06) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 97.79) (xy 147.32 97.79)
+			(xy 148.59 48.26) (xy 161.29 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1620,7 +1390,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 97.79) (xy 109.22 97.79)
+			(xy 110.49 48.26) (xy 123.19 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 135.89) (xy 198.12 135.89)
+			(xy 199.39 86.36) (xy 212.09 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1640,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 123.19) (xy 147.32 123.19)
+			(xy 148.59 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1650,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 135.89) (xy 229.87 148.59)
+			(xy 243.84 86.36) (xy 243.84 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1660,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 121.92 85.09)
+			(xy 123.19 35.56) (xy 135.89 35.56)
 		)
 		(stroke
 			(width 0)
@@ -23925,7 +23695,7 @@
 		)
 	)
 	(label "pogo"
-		(at 85.09 85.09 0)
+		(at 99.06 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23936,7 +23706,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 92.71 270)
+		(at 224.79 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23947,7 +23717,7 @@
 		(fields_autoplaced yes)
 		(uuid "00dd03fb-7561-4f5a-ac0d-25fd72ebdc6c")
 		(property "Reference" "J20"
-			(at 212.09 92.0749 90)
+			(at 226.06 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23958,7 +23728,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 94.6149 90)
+			(at 226.06 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23969,7 +23739,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23980,7 +23750,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23991,7 +23761,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24002,7 +23772,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24013,7 +23783,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24024,7 +23794,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24035,7 +23805,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 92.71 0)
+			(at 224.79 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24059,7 +23829,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 118.11 270)
+		(at 148.59 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24070,7 +23840,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f935a4d-9ac7-4732-af35-83826926a351")
 		(property "Reference" "J34"
-			(at 135.89 117.4749 90)
+			(at 149.86 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24081,7 +23851,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 120.0149 90)
+			(at 149.86 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24092,7 +23862,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24103,7 +23873,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24114,7 +23884,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24125,7 +23895,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24136,7 +23906,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24147,7 +23917,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24158,7 +23928,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 118.11 0)
+			(at 148.59 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24182,7 +23952,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 130.81 270)
+		(at 123.19 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24193,7 +23963,7 @@
 		(fields_autoplaced yes)
 		(uuid "10ede0bc-9c33-412d-952b-89b0dd049977")
 		(property "Reference" "J42"
-			(at 110.49 130.1749 90)
+			(at 124.46 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24204,7 +23974,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 132.7149 90)
+			(at 124.46 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24215,7 +23985,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24226,7 +23996,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24237,7 +24007,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24248,7 +24018,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24259,7 +24029,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24270,7 +24040,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24281,7 +24051,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 130.81 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24305,7 +24075,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 49.53 187.96 0)
+		(at 63.5 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24316,7 +24086,7 @@
 		(fields_autoplaced yes)
 		(uuid "13a6642c-00ce-4594-986c-cd2ff86946f0")
 		(property "Reference" "H5"
-			(at 52.07 186.6899 0)
+			(at 66.04 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24327,7 +24097,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 52.07 189.2299 0)
+			(at 66.04 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24337,8 +24107,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 49.53 187.96 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24349,7 +24119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24360,7 +24130,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24371,7 +24141,7 @@
 			)
 		)
 		(property "Mfn" ""
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24382,7 +24152,7 @@
 			)
 		)
 		(property "Mfn PN" ""
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24393,7 +24163,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24404,7 +24174,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 49.53 187.96 0)
+			(at 63.5 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24425,7 +24195,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 105.41 270)
+		(at 148.59 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24436,7 +24206,7 @@
 		(fields_autoplaced yes)
 		(uuid "1697f801-e71d-4433-bac7-64dd3a4bd43d")
 		(property "Reference" "J24"
-			(at 135.89 104.7749 90)
+			(at 149.86 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24447,7 +24217,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 107.3149 90)
+			(at 149.86 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24458,7 +24228,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24469,7 +24239,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24480,7 +24250,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24491,7 +24261,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24502,7 +24272,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24513,7 +24283,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24524,7 +24294,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 105.41 0)
+			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24548,7 +24318,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 49.53 172.72 0)
+		(at 63.5 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24559,7 +24329,7 @@
 		(fields_autoplaced yes)
 		(uuid "17d04f8d-e5e3-43bc-9cab-294d24ded940")
 		(property "Reference" "H3"
-			(at 52.07 171.4499 0)
+			(at 66.04 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24570,7 +24340,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 52.07 173.9899 0)
+			(at 66.04 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24580,8 +24350,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 49.53 172.72 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24592,7 +24362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24603,7 +24373,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24614,7 +24384,7 @@
 			)
 		)
 		(property "Mfn" ""
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24625,7 +24395,7 @@
 			)
 		)
 		(property "Mfn PN" ""
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24636,7 +24406,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24647,7 +24417,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 49.53 172.72 0)
+			(at 63.5 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24668,7 +24438,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 130.81 270)
+		(at 135.89 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24679,7 +24449,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a1570cc-3e35-448a-87c4-22331c10f456")
 		(property "Reference" "J43"
-			(at 123.19 130.1749 90)
+			(at 137.16 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24690,7 +24460,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 132.7149 90)
+			(at 137.16 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24701,7 +24471,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24712,7 +24482,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24723,7 +24493,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24734,7 +24504,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24745,7 +24515,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24756,7 +24526,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24767,7 +24537,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 130.81 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24791,7 +24561,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 105.41 270)
+		(at 123.19 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24802,7 +24572,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d0a4831-6ccb-4caf-908d-ae8425958bcb")
 		(property "Reference" "J22"
-			(at 110.49 104.7749 90)
+			(at 124.46 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24813,7 +24583,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 107.3149 90)
+			(at 124.46 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24824,7 +24594,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24835,7 +24605,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24846,7 +24616,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24857,7 +24627,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24868,7 +24638,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24879,7 +24649,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24890,7 +24660,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 105.41 0)
+			(at 123.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24914,7 +24684,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 118.11 270)
+		(at 224.79 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24925,7 +24695,7 @@
 		(fields_autoplaced yes)
 		(uuid "253a7f11-1c72-4544-aa08-11753fc50523")
 		(property "Reference" "J40"
-			(at 212.09 117.4749 90)
+			(at 226.06 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24936,7 +24706,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 120.0149 90)
+			(at 226.06 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24947,7 +24717,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24958,7 +24728,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24969,7 +24739,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24980,7 +24750,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24991,7 +24761,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25002,7 +24772,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25013,7 +24783,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 118.11 0)
+			(at 224.79 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25037,7 +24807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 92.71 270)
+		(at 110.49 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25048,7 +24818,7 @@
 		(fields_autoplaced yes)
 		(uuid "29cbfb73-6ae1-4725-bb93-c839e5c30707")
 		(property "Reference" "J11"
-			(at 97.79 92.0749 90)
+			(at 111.76 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25059,7 +24829,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 94.6149 90)
+			(at 111.76 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25070,7 +24840,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25081,7 +24851,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25092,7 +24862,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25103,7 +24873,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25114,7 +24884,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25125,7 +24895,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25136,7 +24906,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 92.71 0)
+			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25160,7 +24930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 92.71 270)
+		(at 123.19 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25171,7 +24941,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d0b5783-1d5b-4440-93fa-fd2da6c88c41")
 		(property "Reference" "J12"
-			(at 110.49 92.0749 90)
+			(at 124.46 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25182,7 +24952,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 94.6149 90)
+			(at 124.46 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25193,7 +24963,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25204,7 +24974,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25215,7 +24985,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25226,7 +24996,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25237,7 +25007,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25248,7 +25018,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25259,7 +25029,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 92.71 0)
+			(at 123.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25283,7 +25053,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 118.11 270)
+		(at 123.19 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25294,7 +25064,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d609a48-ab73-4034-a943-cfd51aedbb94")
 		(property "Reference" "J32"
-			(at 110.49 117.4749 90)
+			(at 124.46 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25305,7 +25075,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 120.0149 90)
+			(at 124.46 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25316,7 +25086,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25327,7 +25097,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25338,7 +25108,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25349,7 +25119,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25360,7 +25130,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25371,7 +25141,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25382,7 +25152,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 118.11 0)
+			(at 123.19 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25406,7 +25176,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 130.81 270)
+		(at 148.59 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25417,7 +25187,7 @@
 		(fields_autoplaced yes)
 		(uuid "4000d48f-ce64-4018-8205-8d93ca475ed8")
 		(property "Reference" "J44"
-			(at 135.89 130.1749 90)
+			(at 149.86 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25428,7 +25198,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 132.7149 90)
+			(at 149.86 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25439,7 +25209,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25450,7 +25220,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25461,7 +25231,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25472,7 +25242,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25483,7 +25253,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25494,7 +25264,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25505,7 +25275,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 130.81 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25528,86 +25298,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 163.83 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45337e6d-919a-4d20-a467-915bbba04447")
-		(property "Reference" "#PWR01"
-			(at 163.83 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9380ab2c-90cb-4f75-affa-c73c95ffbf92")
-		)
-		(instances
-			(project "pogostick"
-				(path "/da49594c-3040-4f48-9dcb-0efc03ccda83"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 118.11 270)
+		(at 199.39 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25618,7 +25310,7 @@
 		(fields_autoplaced yes)
 		(uuid "49661e0c-eac6-4f0d-b74d-5f7eb54457c1")
 		(property "Reference" "J38"
-			(at 186.69 117.4749 90)
+			(at 200.66 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25629,7 +25321,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 120.0149 90)
+			(at 200.66 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25640,7 +25332,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25651,7 +25343,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25662,7 +25354,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25673,7 +25365,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25684,7 +25376,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25695,7 +25387,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25706,7 +25398,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 118.11 0)
+			(at 199.39 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25730,7 +25422,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 80.01 270)
+		(at 186.69 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25741,7 +25433,7 @@
 		(fields_autoplaced yes)
 		(uuid "49d11b8e-ad70-4a97-93e6-e5a27a28f5ed")
 		(property "Reference" "J7"
-			(at 173.99 79.3749 90)
+			(at 187.96 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25752,7 +25444,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 81.9149 90)
+			(at 187.96 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25763,7 +25455,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25774,7 +25466,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25785,7 +25477,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25796,7 +25488,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25807,7 +25499,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25818,7 +25510,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25829,7 +25521,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 80.01 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25853,7 +25545,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 143.51 270)
+		(at 123.19 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25864,7 +25556,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dd42198-f053-44b0-8819-398e6eefec8d")
 		(property "Reference" "J52"
-			(at 110.49 142.8749 90)
+			(at 124.46 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25875,7 +25567,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 145.4149 90)
+			(at 124.46 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25886,7 +25578,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25897,7 +25589,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25908,7 +25600,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25919,7 +25611,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25930,7 +25622,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25941,7 +25633,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25952,7 +25644,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 143.51 0)
+			(at 123.19 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25976,7 +25668,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 105.41 270)
+		(at 212.09 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25987,7 +25679,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e4aeb1a-457c-49c3-821b-61670625170f")
 		(property "Reference" "J29"
-			(at 199.39 104.7749 90)
+			(at 213.36 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25998,7 +25690,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 107.3149 90)
+			(at 213.36 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26009,7 +25701,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26020,7 +25712,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26031,7 +25723,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26042,7 +25734,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26053,7 +25745,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26064,7 +25756,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26075,7 +25767,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 105.41 0)
+			(at 212.09 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26099,7 +25791,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 80.01 270)
+		(at 161.29 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26110,7 +25802,7 @@
 		(fields_autoplaced yes)
 		(uuid "519f1075-3004-427a-a0f5-66e46f136d8a")
 		(property "Reference" "J5"
-			(at 148.59 79.3749 90)
+			(at 162.56 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26121,7 +25813,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 81.9149 90)
+			(at 162.56 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26132,7 +25824,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26143,7 +25835,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26154,7 +25846,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26165,7 +25857,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26176,7 +25868,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26187,7 +25879,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26198,7 +25890,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 80.01 0)
+			(at 161.29 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26222,7 +25914,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 118.11 270)
+		(at 186.69 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26233,7 +25925,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a7e083f-1bfc-48e2-92bb-9bf5ceb7a920")
 		(property "Reference" "J37"
-			(at 173.99 117.4749 90)
+			(at 187.96 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26244,7 +25936,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 120.0149 90)
+			(at 187.96 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26255,7 +25947,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26266,7 +25958,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26277,7 +25969,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26288,7 +25980,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26299,7 +25991,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26310,7 +26002,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26321,7 +26013,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 118.11 0)
+			(at 186.69 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26345,7 +26037,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 92.71 270)
+		(at 173.99 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26356,7 +26048,7 @@
 		(fields_autoplaced yes)
 		(uuid "606a6c14-0577-4f4f-93b7-00657e27e0ac")
 		(property "Reference" "J16"
-			(at 161.29 92.0749 90)
+			(at 175.26 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26367,7 +26059,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 94.6149 90)
+			(at 175.26 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26378,7 +26070,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26389,7 +26081,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26400,7 +26092,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26411,7 +26103,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26422,7 +26114,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26433,7 +26125,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26444,7 +26136,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 92.71 0)
+			(at 173.99 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26468,7 +26160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 80.01 270)
+		(at 173.99 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26479,7 +26171,7 @@
 		(fields_autoplaced yes)
 		(uuid "62b9c421-0c9b-410b-8f11-f3118994a29d")
 		(property "Reference" "J6"
-			(at 161.29 79.3749 90)
+			(at 175.26 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26490,7 +26182,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 81.9149 90)
+			(at 175.26 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26501,7 +26193,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26512,7 +26204,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26523,7 +26215,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26534,7 +26226,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26545,7 +26237,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26556,7 +26248,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26567,7 +26259,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 80.01 0)
+			(at 173.99 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26591,7 +26283,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 143.51 270)
+		(at 148.59 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26602,7 +26294,7 @@
 		(fields_autoplaced yes)
 		(uuid "65550493-0df1-4cc0-b7de-7460bdbb2e83")
 		(property "Reference" "J54"
-			(at 135.89 142.8749 90)
+			(at 149.86 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26613,7 +26305,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 145.4149 90)
+			(at 149.86 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26624,7 +26316,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26635,7 +26327,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26646,7 +26338,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26657,7 +26349,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26668,7 +26360,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26679,7 +26371,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26690,7 +26382,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 143.51 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26714,7 +26406,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 130.81 270)
+		(at 173.99 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26725,7 +26417,7 @@
 		(fields_autoplaced yes)
 		(uuid "67572a9b-13bd-4d9f-a5ab-5369f74850d3")
 		(property "Reference" "J46"
-			(at 161.29 130.1749 90)
+			(at 175.26 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26736,7 +26428,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 132.7149 90)
+			(at 175.26 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26747,7 +26439,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26758,7 +26450,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26769,7 +26461,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26780,7 +26472,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26791,7 +26483,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26802,7 +26494,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26813,7 +26505,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 130.81 0)
+			(at 173.99 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26837,7 +26529,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 80.01 270)
+		(at 135.89 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26848,7 +26540,7 @@
 		(fields_autoplaced yes)
 		(uuid "68979b33-df2e-4369-b77c-c6ea970af760")
 		(property "Reference" "J3"
-			(at 123.19 79.3749 90)
+			(at 137.16 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26859,7 +26551,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 81.9149 90)
+			(at 137.16 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26870,7 +26562,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26881,7 +26573,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26892,7 +26584,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26903,7 +26595,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26914,7 +26606,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26925,7 +26617,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26936,7 +26628,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 80.01 0)
+			(at 135.89 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26959,86 +26651,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 163.83 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6aa07a1c-5488-4057-9a85-ec946b720ab3")
-		(property "Reference" "#FLG01"
-			(at 163.83 175.895 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 163.83 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "570af9b5-bff1-40c7-a3c8-888b988db284")
-		)
-		(instances
-			(project "pogostick"
-				(path "/da49594c-3040-4f48-9dcb-0efc03ccda83"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 143.51 270)
+		(at 135.89 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27049,7 +26663,7 @@
 		(fields_autoplaced yes)
 		(uuid "7059417b-2e08-4855-8f97-c08debd9e0ac")
 		(property "Reference" "J53"
-			(at 123.19 142.8749 90)
+			(at 137.16 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27060,7 +26674,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 145.4149 90)
+			(at 137.16 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27071,7 +26685,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27082,7 +26696,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27093,7 +26707,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27104,7 +26718,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27115,7 +26729,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27126,7 +26740,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27137,7 +26751,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 143.51 0)
+			(at 135.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27161,7 +26775,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 105.41 270)
+		(at 135.89 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27172,7 +26786,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a6d267b-c5a0-4921-87b0-a56880bbb65b")
 		(property "Reference" "J23"
-			(at 123.19 104.7749 90)
+			(at 137.16 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27183,7 +26797,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 107.3149 90)
+			(at 137.16 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27194,7 +26808,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27205,7 +26819,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27216,7 +26830,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27227,7 +26841,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27238,7 +26852,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27249,7 +26863,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27260,7 +26874,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 105.41 0)
+			(at 135.89 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27284,7 +26898,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 92.71 270)
+		(at 186.69 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27295,7 +26909,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b5792ac-6b99-4728-b16f-36757a62e485")
 		(property "Reference" "J17"
-			(at 173.99 92.0749 90)
+			(at 187.96 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27306,7 +26920,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 94.6149 90)
+			(at 187.96 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27317,7 +26931,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27328,7 +26942,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27339,7 +26953,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27350,7 +26964,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27361,7 +26975,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27372,7 +26986,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27383,7 +26997,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 92.71 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27407,7 +27021,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 105.41 270)
+		(at 161.29 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27418,7 +27032,7 @@
 		(fields_autoplaced yes)
 		(uuid "8010697a-0373-4208-a377-a79a92116cac")
 		(property "Reference" "J25"
-			(at 148.59 104.7749 90)
+			(at 162.56 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27429,7 +27043,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 107.3149 90)
+			(at 162.56 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27440,7 +27054,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27451,7 +27065,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27462,7 +27076,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27473,7 +27087,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27484,7 +27098,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27495,7 +27109,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27506,7 +27120,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 105.41 0)
+			(at 161.29 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27530,7 +27144,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 146.05 0)
+		(at 72.39 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27541,7 +27155,7 @@
 		(fields_autoplaced yes)
 		(uuid "86d58bd4-31be-4ada-8d23-d69f32753264")
 		(property "Reference" "H2"
-			(at 60.96 143.5099 0)
+			(at 74.93 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27552,7 +27166,7 @@
 			)
 		)
 		(property "Value" "M3_MountingHole_Pad"
-			(at 60.96 146.0499 0)
+			(at 74.93 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27563,7 +27177,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27574,7 +27188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27585,7 +27199,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27596,7 +27210,7 @@
 			)
 		)
 		(property "Mfn" ""
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27607,7 +27221,7 @@
 			)
 		)
 		(property "Mfn PN" ""
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27618,7 +27232,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27629,7 +27243,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 58.42 146.05 0)
+			(at 72.39 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27653,7 +27267,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 80.01 270)
+		(at 199.39 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27664,7 +27278,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c3c3e28-f9c1-4bc5-91b5-41151906ee15")
 		(property "Reference" "J8"
-			(at 186.69 79.3749 90)
+			(at 200.66 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27675,7 +27289,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 81.9149 90)
+			(at 200.66 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27686,7 +27300,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27697,7 +27311,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27708,7 +27322,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27719,7 +27333,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27730,7 +27344,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27741,7 +27355,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27752,7 +27366,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 80.01 0)
+			(at 199.39 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27776,7 +27390,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 109.22 80.01 270)
+		(at 123.19 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27787,7 +27401,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cec5bea-130d-4769-9b6e-57f83ef5f643")
 		(property "Reference" "J2"
-			(at 110.49 79.3749 90)
+			(at 124.46 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27798,7 +27412,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 110.49 81.9149 90)
+			(at 124.46 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27809,7 +27423,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27820,7 +27434,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27831,7 +27445,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27842,7 +27456,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27853,7 +27467,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27864,7 +27478,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27875,7 +27489,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 109.22 80.01 0)
+			(at 123.19 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27899,7 +27513,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 105.41 270)
+		(at 224.79 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27910,7 +27524,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f8e8131-1db6-490d-a8a7-32f177f2c903")
 		(property "Reference" "J30"
-			(at 212.09 104.7749 90)
+			(at 226.06 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27921,7 +27535,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 107.3149 90)
+			(at 226.06 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27932,7 +27546,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27943,7 +27557,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27954,7 +27568,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27965,7 +27579,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27976,7 +27590,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27987,7 +27601,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27998,7 +27612,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 105.41 0)
+			(at 224.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28022,7 +27636,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 92.71 270)
+		(at 135.89 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28033,7 +27647,7 @@
 		(fields_autoplaced yes)
 		(uuid "90d13027-815a-4d2f-b0a7-1a0dc3c2eb7f")
 		(property "Reference" "J13"
-			(at 123.19 92.0749 90)
+			(at 137.16 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28044,7 +27658,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 94.6149 90)
+			(at 137.16 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28055,7 +27669,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28066,7 +27680,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28077,7 +27691,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28088,7 +27702,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28099,7 +27713,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28110,7 +27724,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28121,7 +27735,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 92.71 0)
+			(at 135.89 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28145,7 +27759,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 130.81 270)
+		(at 110.49 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28156,7 +27770,7 @@
 		(fields_autoplaced yes)
 		(uuid "912bdfe4-f21a-4e03-abd5-694a0f809d06")
 		(property "Reference" "J41"
-			(at 97.79 130.1749 90)
+			(at 111.76 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28167,7 +27781,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 132.7149 90)
+			(at 111.76 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28178,7 +27792,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28189,7 +27803,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28200,7 +27814,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28211,7 +27825,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28222,7 +27836,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28233,7 +27847,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28244,7 +27858,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 130.81 0)
+			(at 110.49 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28268,7 +27882,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 92.71 270)
+		(at 199.39 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28279,7 +27893,7 @@
 		(fields_autoplaced yes)
 		(uuid "93138945-30db-477f-9729-9eca78930b8c")
 		(property "Reference" "J18"
-			(at 186.69 92.0749 90)
+			(at 200.66 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28290,7 +27904,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 94.6149 90)
+			(at 200.66 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28301,7 +27915,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28312,7 +27926,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28323,7 +27937,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28334,7 +27948,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28345,7 +27959,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28356,7 +27970,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28367,7 +27981,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 92.71 0)
+			(at 199.39 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28391,7 +28005,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 118.11 270)
+		(at 110.49 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28402,7 +28016,7 @@
 		(fields_autoplaced yes)
 		(uuid "938304d9-86d0-41fa-ad42-ecec2deab1c4")
 		(property "Reference" "J31"
-			(at 97.79 117.4749 90)
+			(at 111.76 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28413,7 +28027,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 120.0149 90)
+			(at 111.76 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28424,7 +28038,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28435,7 +28049,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28446,7 +28060,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28457,7 +28071,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28468,7 +28082,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28479,7 +28093,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28490,7 +28104,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 118.11 0)
+			(at 110.49 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28514,7 +28128,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 92.71 270)
+		(at 212.09 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28525,7 +28139,7 @@
 		(fields_autoplaced yes)
 		(uuid "93b609a8-13cb-4c0d-87b8-f9143e44384f")
 		(property "Reference" "J19"
-			(at 199.39 92.0749 90)
+			(at 213.36 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28536,7 +28150,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 94.6149 90)
+			(at 213.36 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28547,7 +28161,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28558,7 +28172,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28569,7 +28183,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28580,7 +28194,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28591,7 +28205,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28602,7 +28216,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28613,7 +28227,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 92.71 0)
+			(at 212.09 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28637,7 +28251,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 130.81 270)
+		(at 199.39 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28648,7 +28262,7 @@
 		(fields_autoplaced yes)
 		(uuid "9555e195-1eb5-43b8-9331-bd030399aa91")
 		(property "Reference" "J48"
-			(at 186.69 130.1749 90)
+			(at 200.66 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28659,7 +28273,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 132.7149 90)
+			(at 200.66 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28670,7 +28284,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28681,7 +28295,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28692,7 +28306,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28703,7 +28317,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28714,7 +28328,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28725,7 +28339,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28736,7 +28350,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 130.81 0)
+			(at 199.39 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28760,7 +28374,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 80.01 270)
+		(at 224.79 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28771,7 +28385,7 @@
 		(fields_autoplaced yes)
 		(uuid "995b6225-37e2-40ca-aa5e-93ceff915ffd")
 		(property "Reference" "J10"
-			(at 212.09 79.3749 90)
+			(at 226.06 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28782,7 +28396,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 81.9149 90)
+			(at 226.06 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28793,7 +28407,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28804,7 +28418,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28815,7 +28429,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28826,7 +28440,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28837,7 +28451,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28848,7 +28462,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28859,7 +28473,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 80.01 0)
+			(at 224.79 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28883,7 +28497,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 105.41 270)
+		(at 173.99 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28894,7 +28508,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b928edd-c7d8-4891-83e9-8c665fa4c22a")
 		(property "Reference" "J26"
-			(at 161.29 104.7749 90)
+			(at 175.26 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28905,7 +28519,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 107.3149 90)
+			(at 175.26 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28916,7 +28530,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28927,7 +28541,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28938,7 +28552,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28949,7 +28563,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28960,7 +28574,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28971,7 +28585,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28982,7 +28596,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 105.41 0)
+			(at 173.99 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29006,7 +28620,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 143.51 270)
+		(at 212.09 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29017,7 +28631,7 @@
 		(fields_autoplaced yes)
 		(uuid "9eecd57e-c77a-4c81-8f9a-95ff5a446675")
 		(property "Reference" "J59"
-			(at 199.39 142.8749 90)
+			(at 213.36 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29028,7 +28642,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 145.4149 90)
+			(at 213.36 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29039,7 +28653,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29050,7 +28664,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29061,7 +28675,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29072,7 +28686,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29083,7 +28697,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29094,7 +28708,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29105,7 +28719,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 143.51 0)
+			(at 212.09 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29129,7 +28743,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 143.51 270)
+		(at 224.79 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29140,7 +28754,7 @@
 		(fields_autoplaced yes)
 		(uuid "a629d9de-747d-4201-a6ef-354562123d65")
 		(property "Reference" "J60"
-			(at 212.09 142.8749 90)
+			(at 226.06 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29151,7 +28765,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 145.4149 90)
+			(at 226.06 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29162,7 +28776,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29173,7 +28787,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29184,7 +28798,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29195,7 +28809,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29206,7 +28820,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29217,7 +28831,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29228,7 +28842,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 143.51 0)
+			(at 224.79 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29252,7 +28866,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 105.41 270)
+		(at 199.39 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29263,7 +28877,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9fdb596-ee3e-41db-8c22-dd9941a14a18")
 		(property "Reference" "J28"
-			(at 186.69 104.7749 90)
+			(at 200.66 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29274,7 +28888,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 107.3149 90)
+			(at 200.66 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29285,7 +28899,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29296,7 +28910,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29307,7 +28921,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29318,7 +28932,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29329,7 +28943,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29340,7 +28954,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29351,7 +28965,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 105.41 0)
+			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29375,7 +28989,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 130.81 270)
+		(at 212.09 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29386,7 +29000,7 @@
 		(fields_autoplaced yes)
 		(uuid "aaba3843-5b7d-4923-afdd-092d2dcfed14")
 		(property "Reference" "J49"
-			(at 199.39 130.1749 90)
+			(at 213.36 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29397,7 +29011,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 132.7149 90)
+			(at 213.36 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29408,7 +29022,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29419,7 +29033,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29430,7 +29044,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29441,7 +29055,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29452,7 +29066,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29463,7 +29077,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29474,7 +29088,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 130.81 0)
+			(at 212.09 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29498,7 +29112,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 80.01 270)
+		(at 110.49 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29509,7 +29123,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac896d02-52c5-436c-81d3-fdf65e9d9a5c")
 		(property "Reference" "J1"
-			(at 97.79 79.3749 90)
+			(at 111.76 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29520,7 +29134,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 81.9149 90)
+			(at 111.76 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29531,7 +29145,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29542,7 +29156,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29553,7 +29167,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29564,7 +29178,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29575,7 +29189,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29586,7 +29200,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29597,7 +29211,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 80.01 0)
+			(at 110.49 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29621,7 +29235,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 82.55 0)
+		(at 72.39 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29632,7 +29246,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac9a207a-4104-422c-b0a1-038cbb1258fc")
 		(property "Reference" "H1"
-			(at 60.96 80.0099 0)
+			(at 74.93 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29643,7 +29257,7 @@
 			)
 		)
 		(property "Value" "M3_MountingHole_Pad"
-			(at 60.96 82.5499 0)
+			(at 74.93 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29654,7 +29268,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29665,7 +29279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29676,7 +29290,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29687,7 +29301,7 @@
 			)
 		)
 		(property "Mfn" ""
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29698,7 +29312,7 @@
 			)
 		)
 		(property "Mfn PN" ""
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29709,7 +29323,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29720,7 +29334,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 58.42 82.55 0)
+			(at 72.39 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29744,7 +29358,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 92.71 270)
+		(at 161.29 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29755,7 +29369,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca4d575-7e87-416c-bbc1-d66bfb3ceed7")
 		(property "Reference" "J15"
-			(at 148.59 92.0749 90)
+			(at 162.56 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29766,7 +29380,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 94.6149 90)
+			(at 162.56 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29777,7 +29391,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29788,7 +29402,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29799,7 +29413,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29810,7 +29424,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29821,7 +29435,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29832,7 +29446,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29843,7 +29457,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 92.71 0)
+			(at 161.29 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29867,7 +29481,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 143.51 270)
+		(at 186.69 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29878,7 +29492,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3a37596-0b1b-4843-a5f7-9d28718f861f")
 		(property "Reference" "J57"
-			(at 173.99 142.8749 90)
+			(at 187.96 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29889,7 +29503,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 145.4149 90)
+			(at 187.96 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29900,7 +29514,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29911,7 +29525,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29922,7 +29536,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29933,7 +29547,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29944,7 +29558,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29955,7 +29569,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29966,7 +29580,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 143.51 0)
+			(at 186.69 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29990,7 +29604,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 118.11 270)
+		(at 173.99 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30001,7 +29615,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6756a06-0172-4628-960e-5e72976d680c")
 		(property "Reference" "J36"
-			(at 161.29 117.4749 90)
+			(at 175.26 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30012,7 +29626,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 120.0149 90)
+			(at 175.26 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30023,7 +29637,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30034,7 +29648,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30045,7 +29659,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30056,7 +29670,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30067,7 +29681,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30078,7 +29692,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30089,7 +29703,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 118.11 0)
+			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30113,7 +29727,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 210.82 130.81 270)
+		(at 224.79 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30124,7 +29738,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6950aa0-b846-4b3d-b7a2-1a529e27c967")
 		(property "Reference" "J50"
-			(at 212.09 130.1749 90)
+			(at 226.06 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30135,7 +29749,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 212.09 132.7149 90)
+			(at 226.06 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30146,7 +29760,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30157,7 +29771,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30168,7 +29782,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30179,7 +29793,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30190,7 +29804,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30201,7 +29815,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30212,7 +29826,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 210.82 130.81 0)
+			(at 224.79 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30236,7 +29850,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 80.01 270)
+		(at 148.59 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30247,7 +29861,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba67ab09-8dbf-4b28-b4bf-61f206f4ce95")
 		(property "Reference" "J4"
-			(at 135.89 79.3749 90)
+			(at 149.86 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30258,7 +29872,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 81.9149 90)
+			(at 149.86 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30269,7 +29883,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30280,7 +29894,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30291,7 +29905,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30302,7 +29916,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30313,7 +29927,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30324,7 +29938,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30335,7 +29949,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 80.01 0)
+			(at 148.59 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30359,7 +29973,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 143.51 270)
+		(at 110.49 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30370,7 +29984,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0a3fe54-1411-42a2-9f81-1607045d4d37")
 		(property "Reference" "J51"
-			(at 97.79 142.8749 90)
+			(at 111.76 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30381,7 +29995,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 145.4149 90)
+			(at 111.76 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30392,7 +30006,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30403,7 +30017,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30414,7 +30028,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30425,7 +30039,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30436,7 +30050,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30447,7 +30061,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30458,7 +30072,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 143.51 0)
+			(at 110.49 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30482,7 +30096,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 130.81 270)
+		(at 161.29 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30493,7 +30107,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0fc4f1d-b7ed-4515-8baf-41328e8394eb")
 		(property "Reference" "J45"
-			(at 148.59 130.1749 90)
+			(at 162.56 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30504,7 +30118,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 132.7149 90)
+			(at 162.56 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30515,7 +30129,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30526,7 +30140,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30537,7 +30151,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30548,7 +30162,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30559,7 +30173,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30570,7 +30184,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30581,7 +30195,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 130.81 0)
+			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30605,7 +30219,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 118.11 270)
+		(at 161.29 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30616,7 +30230,7 @@
 		(fields_autoplaced yes)
 		(uuid "c34a6529-ad0a-4291-a0a7-c76e046d6af9")
 		(property "Reference" "J35"
-			(at 148.59 117.4749 90)
+			(at 162.56 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30627,7 +30241,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 120.0149 90)
+			(at 162.56 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30638,7 +30252,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30649,7 +30263,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30660,7 +30274,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30671,7 +30285,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30682,7 +30296,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30693,7 +30307,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30704,7 +30318,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 118.11 0)
+			(at 161.29 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30728,7 +30342,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 147.32 143.51 270)
+		(at 161.29 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30739,7 +30353,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb3c4d12-af7b-4c0b-832b-cdbda1c10d72")
 		(property "Reference" "J55"
-			(at 148.59 142.8749 90)
+			(at 162.56 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30750,7 +30364,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 148.59 145.4149 90)
+			(at 162.56 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30761,7 +30375,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30772,7 +30386,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30783,7 +30397,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30794,7 +30408,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30805,7 +30419,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30816,7 +30430,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30827,7 +30441,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 147.32 143.51 0)
+			(at 161.29 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30851,7 +30465,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 80.01 270)
+		(at 212.09 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30862,7 +30476,7 @@
 		(fields_autoplaced yes)
 		(uuid "d15c9a58-0958-43aa-9085-2cf3255f0e03")
 		(property "Reference" "J9"
-			(at 199.39 79.3749 90)
+			(at 213.36 29.8449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30873,7 +30487,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 81.9149 90)
+			(at 213.36 32.3849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30884,7 +30498,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30895,7 +30509,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30906,7 +30520,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30917,7 +30531,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30928,7 +30542,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30939,7 +30553,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30950,7 +30564,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 80.01 0)
+			(at 212.09 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30974,7 +30588,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 130.81 270)
+		(at 186.69 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30985,7 +30599,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4bcd7c2-1d40-4ad2-9dcc-a4fffbe2526e")
 		(property "Reference" "J47"
-			(at 173.99 130.1749 90)
+			(at 187.96 80.6449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30996,7 +30610,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 132.7149 90)
+			(at 187.96 83.1849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31007,7 +30621,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31018,7 +30632,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31029,7 +30643,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31040,7 +30654,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31051,7 +30665,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31062,7 +30676,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31073,7 +30687,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 130.81 0)
+			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31097,7 +30711,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 198.12 118.11 270)
+		(at 212.09 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31108,7 +30722,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ecf507-d19d-4486-b518-b83dab7e49e0")
 		(property "Reference" "J39"
-			(at 199.39 117.4749 90)
+			(at 213.36 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31119,7 +30733,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 199.39 120.0149 90)
+			(at 213.36 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31130,7 +30744,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31141,7 +30755,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31152,7 +30766,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31163,7 +30777,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31174,7 +30788,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31185,7 +30799,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31196,7 +30810,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 198.12 118.11 0)
+			(at 212.09 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31220,7 +30834,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 49.53 180.34 0)
+		(at 63.5 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31231,7 +30845,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8163923-9143-41cd-a3a5-5c5a99d09e00")
 		(property "Reference" "H4"
-			(at 52.07 179.0699 0)
+			(at 66.04 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31242,7 +30856,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 52.07 181.6099 0)
+			(at 66.04 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31252,8 +30866,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 49.53 180.34 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31264,7 +30878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31275,7 +30889,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31286,7 +30900,7 @@
 			)
 		)
 		(property "Mfn" ""
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31297,7 +30911,7 @@
 			)
 		)
 		(property "Mfn PN" ""
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31308,7 +30922,7 @@
 			)
 		)
 		(property "Supplier" ""
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31319,7 +30933,7 @@
 			)
 		)
 		(property "Supplier PN" ""
-			(at 49.53 180.34 0)
+			(at 63.5 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31340,7 +30954,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 160.02 143.51 270)
+		(at 173.99 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31351,7 +30965,7 @@
 		(fields_autoplaced yes)
 		(uuid "d87c88bc-ede4-4e2c-87f7-a2e78eba2904")
 		(property "Reference" "J56"
-			(at 161.29 142.8749 90)
+			(at 175.26 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31362,7 +30976,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 161.29 145.4149 90)
+			(at 175.26 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31373,7 +30987,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31384,7 +30998,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31395,7 +31009,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31406,7 +31020,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31417,7 +31031,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31428,7 +31042,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31439,7 +31053,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 160.02 143.51 0)
+			(at 173.99 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31463,7 +31077,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 134.62 92.71 270)
+		(at 148.59 43.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31474,7 +31088,7 @@
 		(fields_autoplaced yes)
 		(uuid "d92d79e7-5b52-4a87-9021-f902e3e3db28")
 		(property "Reference" "J14"
-			(at 135.89 92.0749 90)
+			(at 149.86 42.5449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31485,7 +31099,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 135.89 94.6149 90)
+			(at 149.86 45.0849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31496,7 +31110,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31507,7 +31121,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31518,7 +31132,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31529,7 +31143,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31540,7 +31154,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31551,7 +31165,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31562,7 +31176,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 134.62 92.71 0)
+			(at 148.59 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31586,7 +31200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 96.52 105.41 270)
+		(at 110.49 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31597,7 +31211,7 @@
 		(fields_autoplaced yes)
 		(uuid "de5bfd75-9604-44c1-ad51-ed86e83052b6")
 		(property "Reference" "J21"
-			(at 97.79 104.7749 90)
+			(at 111.76 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31608,7 +31222,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 97.79 107.3149 90)
+			(at 111.76 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31619,7 +31233,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31630,7 +31244,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31641,7 +31255,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31652,7 +31266,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31663,7 +31277,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31674,7 +31288,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31685,7 +31299,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 96.52 105.41 0)
+			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31709,7 +31323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 185.42 143.51 270)
+		(at 199.39 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31720,7 +31334,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6aa494a-20eb-4e84-a723-6ed15b7cc389")
 		(property "Reference" "J58"
-			(at 186.69 142.8749 90)
+			(at 200.66 93.3449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31731,7 +31345,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 186.69 145.4149 90)
+			(at 200.66 95.8849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31742,7 +31356,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31753,7 +31367,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31764,7 +31378,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31775,7 +31389,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31786,7 +31400,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31797,7 +31411,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31808,7 +31422,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 185.42 143.51 0)
+			(at 199.39 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31832,7 +31446,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 121.92 118.11 270)
+		(at 135.89 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31843,7 +31457,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7506d0f-34b8-474b-8def-d52967554f1c")
 		(property "Reference" "J33"
-			(at 123.19 117.4749 90)
+			(at 137.16 67.9449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31854,7 +31468,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 123.19 120.0149 90)
+			(at 137.16 70.4849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31865,7 +31479,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31876,7 +31490,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31887,7 +31501,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31898,7 +31512,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31909,7 +31523,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31920,7 +31534,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31931,7 +31545,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 121.92 118.11 0)
+			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31955,7 +31569,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 172.72 105.41 270)
+		(at 186.69 55.88 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31966,7 +31580,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbc2e2ed-222e-4848-8c7c-40ff3bc1e347")
 		(property "Reference" "J27"
-			(at 173.99 104.7749 90)
+			(at 187.96 55.2449 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31977,7 +31591,7 @@
 			)
 		)
 		(property "Value" "Pogo pin"
-			(at 173.99 107.3149 90)
+			(at 187.96 57.7849 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31988,7 +31602,7 @@
 			)
 		)
 		(property "Footprint" "pogostick:PogoPin_Pad_D1.83mm"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31999,7 +31613,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7161/54_Mill%20Max%20catalog.pdf"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32010,7 +31624,7 @@
 			)
 		)
 		(property "Description" "SMT SPRING-LOADED PIN WITH FLAT"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32021,7 +31635,7 @@
 			)
 		)
 		(property "Mfn" "Mill-Max Manufacturing Corp."
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32032,7 +31646,7 @@
 			)
 		)
 		(property "Mfn PN" "2900-2-15-20-75-14-11-0"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32043,7 +31657,7 @@
 			)
 		)
 		(property "Supplier" "DigiKey"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32054,7 +31668,7 @@
 			)
 		)
 		(property "Supplier PN" "54-2900-2-15-20-75-14-11-0-ND"
-			(at 172.72 105.41 0)
+			(at 186.69 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
