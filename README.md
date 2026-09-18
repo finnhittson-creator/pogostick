@@ -12,6 +12,14 @@ The following image is the schematic of the PPC board. The two mounting holes, H
 
 ## PCB Layout
 
-The following images is the PCB layout of the PPC board. The two holes at the top are the ring connectors that supply power to the pogo pins. There are three mounting holes to connect the physical board to a jig. The panel is expected to draw around four amps so the trace is speced for six amps. Using the KiCad calculator for 2oz copper (70um thick), the trace needs to be ~1.8mm thick to be able to handle six amps. The rest of the board is filled with copper to provide better board thermals. The copper pour is not grounded but this is not expected to be an issue since the board is working with only DC supplies.
+The following images is the PCB layout of the PPC board. The two holes at the top are the ring connectors that supply power to the pogo pins. There are three plated mounting holes to connect the physical board to a jig. The mounting holes are plated to help prevent board damage when the board is screwed in tightly.
 
 ![pcb_layout](images/pcb_layout.png)
+
+When connected, the panel is expected to draw around four amps. The trace connecting the input to all of the pogo pins is sized for six amps: a 1.5 safety factor. Using the KiCad calculator for 2oz copper (70um tall), the trace needs to be ~1.8mm thick to be able to handle six amps.
+
+![trace_width](images/trace_width.png)
+
+The rest of the board is filled with copper to help with thermal management. The copper pour is not grounded but this is not expected to be an issue since the board is working with only DC supplies and no alternating or high frequency signals. The pogo pins are spaced 3mm apart and are 0.75mm offset left from the center of the board. The following image shows the dimensions of the board along with the pogo pins and mounting holes. All numbers listed are in mm. 
+
+![dimensions](images/dimensions.png)
